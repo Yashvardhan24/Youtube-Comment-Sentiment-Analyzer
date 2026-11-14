@@ -1,0 +1,24 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files
+data/raw/*
+data/processed/*
+
+# Trained model artifacts
+artifacts/*
+!artifacts/sentiment_model.keras
+!artifacts/tokenizer.json
+!artifacts/config.json

@@ -1,0 +1,11 @@
+{
+    "vocab_size": 74838,
+    "max_features": 40000,
+    "max_length": 100,
+    "embedding_dim": 128,
+    "classes": [
+        "Negative",
+        "Neutral",
+        "Positive"
+    ]
+}
